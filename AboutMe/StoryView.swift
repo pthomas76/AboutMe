@@ -20,6 +20,11 @@ struct StoryView: View {
                     .font(.body)
                     .padding()
             }
+            
+            Image("arsenal")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .cornerRadius(10)
         }
         .padding([.top, .bottom], 50)
     }

@@ -21,7 +21,7 @@ struct Info {
 let information = Info(
     image: "factspic",
     name: "Pranav Thomas",
-    story: "A story can be about anything you can dream up. There are no right answers, there is no one else.\n\nNeed some inspiration?\n• 🐶🐱🛶️🎭🎤🎧🎸\n• 🏄‍♀️🚵‍♀️🚴‍♀️⛵️🥾🏂⛷📚\n• ✍️🥖☕️🏋️‍♂️🚲🧗‍♀️ ",
+    story: "Grew up in Dubai, moved to Atlanta to study at Tech. Love sports and hiking, watch a lot of movies in my free time. I love Arsenal, and plan to watch them in London soon. Tell me about yourself!",
     hobbies: ["bicycle", "ticket.fill", "book.fill"],
     foods: ["🥐", "🌮", "🍣"],
     colors: [Color.blue, Color.purple, Color.pink],
