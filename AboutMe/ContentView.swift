@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import FirebaseFirestore
+
 
 struct ContentView: View {
     var body: some View {
@@ -28,6 +30,10 @@ struct ContentView: View {
             FunFactsView()
                 .tabItem {
                     Label("Fun Facts", systemImage: "hand.thumbsup")
+                }
+            AddCommentsView()
+                .tabItem {
+                    Label("Feedback", systemImage: "pencil")
                 }
         }
         .tint(.pink)
