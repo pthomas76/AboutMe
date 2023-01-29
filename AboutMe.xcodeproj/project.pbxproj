@@ -28,6 +28,7 @@
 		FB008AAC29860661007F0681 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FB008AAB29860661007F0681 /* FirebaseFirestoreSwift */; };
 		FB008AAE29860667007F0681 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = FB008AAD29860667007F0681 /* FirebaseFirestoreCombine-Community */; };
 		FB008AB029860BCB007F0681 /* AddCommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB008AAF29860BCB007F0681 /* AddCommentsView.swift */; };
+		FB008AB4298614D3007F0681 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB008AB3298614D3007F0681 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		FB008A8F2982DF1C007F0681 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		FB008A912982DF39007F0681 /* FunFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsView.swift; sourceTree = "<group>"; };
 		FB008AAF29860BCB007F0681 /* AddCommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCommentsView.swift; sourceTree = "<group>"; };
+		FB008AB3298614D3007F0681 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		FB008A5E2982DB5F007F0681 /* AboutMe */ = {
 			isa = PBXGroup;
 			children = (
+				FB008AB3298614D3007F0681 /* GoogleService-Info.plist */,
 				FB008A5F2982DB5F007F0681 /* AboutMeApp.swift */,
 				FB008A612982DB5F007F0681 /* ContentView.swift */,
 				FB008A632982DB61007F0681 /* Assets.xcassets */,
@@ -272,6 +275,7 @@
 			files = (
 				FB008A672982DB61007F0681 /* Preview Assets.xcassets in Resources */,
 				FB008A642982DB61007F0681 /* Assets.xcassets in Resources */,
+				FB008AB4298614D3007F0681 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
