@@ -34,14 +34,15 @@ struct AddCommentsView: View {
             
             TextField(
               "What do you think about the app?",
-              text: $feedback,
-              onCommit: {
-                  addFeedback(feedback: feedback)
-              }
+              text: $feedback
             )
             .padding()
             .multilineTextAlignment(.center)
             
+            Button("Submit") {
+                addFeedback(feedback: feedback)
+            }
+                    
         }
         .padding([.top, .bottom], 50)
     }
