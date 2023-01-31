@@ -11,7 +11,7 @@ import FirebaseFirestore
 
 func addFeedback(feedback: String) {
     let db = Firestore.firestore()
-    let docRef = db.collection("Feedback Document").document(feedback)
+    let docRef = db.collection("feedbacklist").document(feedback)
 
     docRef.setData(["Feedback": feedback]) { error in
         if let error = error {
